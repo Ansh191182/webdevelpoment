@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Home Services</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #home::before{
+        content: "";
+        background: url("istockphoto-1345670559-612x612\ service.jpg") no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 95%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.90;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 6px;
+        
+    }
+     #logo img{
+        height: 90px;
+     }
+     #logo p{
+        /* border: 2px solid red; */
+        padding: 2px 23px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+     }
+     #contact-box{
+        background-color: black;
+        color: white;
+        width: 30%;
+        position: absolute;
+        right: 40px;
+        top: 2px;
+        margin-top: 30px;
+     }
+     .h-primary{
+        font-size: 2.9rem;
+        margin-top: 16px;
+        text-align: center;
+     }
+      #contact-box p{
+        margin: 25px 3px;
+        text-align: center;
+     }
+     
+     #contact-box input{
+        width: 95%;
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin: 10px 3px;
+     }
+     #contact-box textarea{
+        width: 95%;
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin: 10px 3px;
+     }
+     .btn{
+        background-color: red;
+        color: white;
+       text-align: center;
+       width: 100%;
+       margin: 9px 2px;
+       padding: 10px 2px;
+       font-size: 1.1rem;
+     }
+     #home-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        padding: 4px 10px;
+        font-size: 2.2rem;
+        color: white;
+     }
+     /* benifits and features section  */
+      #benifit-container{
+         margin: 200px 5px;
+      }
+      #benifit-container p{
+         text-align: center;
+      }
+      #benifit{
+         margin: 100px 10px;
+         display: flex;
+      }
+      #benifit .book img{
+         display: block;
+         margin: auto;
+         height: 160px;
+      }
+      .h-secondary{
+         text-align: center;
+         font-size: 2.8rem;
+         padding: 24px 2px;
+      }
+      #benifit .book p{
+         padding: 1px 57px;
+      }
+       #service-container{
+         color: white;
+      }
+      #service-container p{
+         text-align: center;
+      }
+      .h-third{
+         font-size: 2.4rem;
+         text-align: center;
+      }
+      #service-container .points{
+         margin-top: 24px;
+      }
+      #service-container .points h1{
+         padding-top: 24px;
+         margin-left: 550px; 
+      } 
+     #service-container{
+      content: "";
+      background: url("pexels-photo-1103560\ kitchen.webp") no-repeat center center/cover;
+      position: absolute;
+      height: 80%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.98;
+     }
+     #hiring-services::before{
+      content: "";
+      background-color: red;
+      position: absolute;
+      height: 60%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0,90;
+     }
+
+     #hiring-services{
+      color: white;
+      margin-top: 765px;
+     }
+     #para{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     }
+      #para p{
+      font-size: 2.5rem;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin: 45px 2px; */
+      
+     }
+     #hiring-services .btn{
+      display: block;
+      width: 20%;
+      margin: 3px auto;
+      cursor: pointer;
+     }
+     #photo img{
+      height: 50%;
+      position: absolute;
+      top: 1980px;
+      right: 100px;
+     }
+    
+    
+
+</style>
+<body>
+   <section id="home">
+     <div id="logo">
+        <img src="C:\Users\HP\Downloads\service-13475_640 home service logo.webp" alt="MyOnlineService">
+        <p>24/7 SERVICES - CALL 800 369 3210</p>
+     </div>
+     <div id="contact-box">
+        <h1 class="h-primary">CONTACT US</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita, nemo ullam iure.</p>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name:-">
+            </div>
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Email:-">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Phone Number" placeholder="Phone:-">
+            </div>
+            <div class="form-group">
+                <input type="text" name="date" placeholder="mm/dd/yyy:-">
+            </div>
+            <div class="form-group">
+               <textarea name="message" id="" cols="30" rows="10" placeholder="How can we help you"></textarea>
+            </div>
+            <button class="btn">Send A Message</button>
+        </form>
+     </div>
+   </section>
+   <div id="home-text">
+    <p>WE'RE YOUR APPLIANCE AND</p>
+    <P>HOME IMPROVEMENT EXPERTS</P>
+</div>
+ <section id="benifit-container">
+    <h1 class="h-primary" style="color: red;">BENEFITS & FEATURES</h1>
+    <br>
+    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+     <div id="benifit">
+     <div class="book">
+      <img src="C:\Users\HP\Downloads\tv-2223047_640 computer icon.webp" alt="BOOK">
+      <h2 class="h-secondary" style="color: red;">Book</h2>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+     <p> Perferendis, sapiente ipsum reprehenderit fugit at a aperiam </p>
+     <p> quis corporis ducimus optio fuga beatae voluptate.</p>
+     </div>
+     <div class="book">
+      <img src="C:\Users\HP\Downloads\calendar-2027122_640 calendra icon.webp" alt="BOOK">
+      <h2 class="h-secondary" style="color: red;">Schedule</h2>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+     <p> Perferendis, sapiente ipsum reprehenderit fugit at a aperiam </p>
+     <p> quis corporis ducimus optio fuga beatae voluptate.</p>
+     </div>
+     <div class="book">
+      <img src="C:\Users\HP\Downloads\istockphoto-1212270254-612x612 relax image.jpg" alt="BOOK">
+      <h2 class="h-secondary" style="color: red;">Relax</h2>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+     <p> Perferendis, sapiente ipsum reprehenderit fugit at a aperiam </p>
+     <p> quis corporis ducimus optio fuga beatae voluptate.</p>
+     </div>
+   </div>
+ </section>
+ <section id="service-container">
+   <h1 class="h-primary">OUR SERVICES</h1>
+   <br>
+   <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, libero? </P>
+   <br>
+   <h1 class="h-third">Everything You Need, Right Under One Roof</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+   illo provident reiciendis consequatur </p> 
+   <p> id fuga dolor voluptate sequi soluta expedita sint ducimus sunt ab laborum porro possimus ad. Quidem, earum.</p>
+   <p>nisi consequuntur quibusdam officia totam, quod distinctio id.</p>
+   <br>
+     <div class="points">
+      <h1>Appliances</h1>
+      <p>perspiciatis unde omnis iste natus error sit voluplatern accusantium</p>
+      <h1>Heating & Cooling</h1>
+      <p>perspiciatis unde omnis iste natus error sit voluplatern accusantium</p>
+      <h1>Lawn & Garden</h1>
+      <p>perspiciatis unde omnis iste natus error sit voluplatern accusantium</p>
+     </div>
+ </section>
+  
+  <section id="hiring-services">
+    <div id="photo">
+      <img src="C:\Users\HP\Downloads\home-1429504_640 home repair.webp" alt="">
+    </div>
+      <div id="para">
+         <p>WE ARE NOE HIRING!</p>
+         <P>START A CAREER WITH AN </P>
+         <P>AMAZING TEAM AND </P>
+         <P>EXCELLENT BENEFITS</P>
+      </div>
+      <button class="btn">Call us Now! 0800 456 7890</button>
+
+  </section>
+</body>
+</html>
